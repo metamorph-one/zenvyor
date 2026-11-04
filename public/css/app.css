@@ -454,3 +454,8 @@ input::placeholder,textarea::placeholder{color:rgba(18,75,126,.6)}
 .btn-ghost .btn-icon svg{width:1em;height:1em;display:block}
 .btn-accent{color:#0D2F4C !important;font-weight:600}
 .btn-accent:hover,.btn-accent:focus{color:#fff !important}
+
+/* Sticky footer */
+body{display:flex;flex-direction:column;min-height:100vh}
+main{flex:1 0 auto}
+.site-footer{flex-shrink:0}
