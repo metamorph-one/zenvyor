@@ -459,3 +459,5 @@ input::placeholder,textarea::placeholder{color:rgba(18,75,126,.6)}
 body{display:flex;flex-direction:column;min-height:100vh}
 main{flex:1 0 auto}
 .site-footer{flex-shrink:0}
+main{display:flex;flex-direction:column}
+main>section:last-child{flex:1 0 auto}
