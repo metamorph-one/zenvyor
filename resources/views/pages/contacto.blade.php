@@ -45,25 +45,25 @@
 
             <div class="form-row">
                 <div class="form-group">
-                    <input type="text" name="name" placeholder="Nome" value="{{ old('name') }}" required>
+                    <input type="text" name="name" aria-label="Nome" placeholder="Nome" value="{{ old('name') }}" required>
                     @error('name')<span class="field-error">{{ $message }}</span>@enderror
                 </div>
                 <div class="form-group">
-                    <input type="text" name="company" placeholder="Empresa" value="{{ old('company') }}">
+                    <input type="text" name="company" aria-label="Empresa" placeholder="Empresa" value="{{ old('company') }}">
                 </div>
             </div>
             <div class="form-row">
                 <div class="form-group">
-                    <input type="email" name="email" placeholder="Email" value="{{ old('email') }}" required>
+                    <input type="email" name="email" aria-label="Email" placeholder="Email" value="{{ old('email') }}" required>
                     @error('email')<span class="field-error">{{ $message }}</span>@enderror
                 </div>
                 <div class="form-group">
-                    <input type="tel" name="phone" placeholder="Telefone" value="{{ old('phone') }}" required>
+                    <input type="tel" name="phone" aria-label="Telefone" placeholder="Telefone" value="{{ old('phone') }}" required>
                     @error('phone')<span class="field-error">{{ $message }}</span>@enderror
                 </div>
             </div>
             <div class="form-group">
-                <textarea name="message" placeholder="Mensagem" required>{{ old('message') }}</textarea>
+                <textarea name="message" aria-label="Mensagem" placeholder="Mensagem" required>{{ old('message') }}</textarea>
                 @error('message')<span class="field-error">{{ $message }}</span>@enderror
             </div>
             <div class="acceptance">
