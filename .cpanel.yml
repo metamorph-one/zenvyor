@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=$HOME/public_html/
     - /bin/cp -rf public/. $DEPLOYPATH
     - /bin/cp -f deploy/index.php $DEPLOYPATH/index.php
+    - /bin/cp -f deploy/user.ini $DEPLOYPATH/.user.ini
