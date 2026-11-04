@@ -55,10 +55,9 @@
     @endverbatim
     <link rel="preload" as="image" href="/media/banner2-scaled.avif" type="image/avif" fetchpriority="high">
     <link rel="icon" type="image/png" href="/media/cropped-favico.png">
-    <link rel="stylesheet" href="/fonts/google/css/rem.css">
-    <link rel="stylesheet" href="/fonts/google/css/poppins.css">
-    <link rel="stylesheet" href="/fonts/google/css/roboto.css">
-    <link rel="stylesheet" href="/fonts/google/css/robotoslab.css">
+    <link rel="stylesheet" href="/css/fonts.css?v={{ filemtime(public_path('css/fonts.css')) }}">
+    <link rel="preload" href="/fonts/google/fonts/rem-wnz1haiosdytzaasqrm.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" href="/media/industrial.avif" type="image/avif" fetchpriority="high">
     <link rel="stylesheet" href="/css/app.css?v={{ filemtime(public_path('css/app.css')) }}">
     <!-- Google tag (gtag.js) — Consent Mode v2: só ativa após consentimento -->
     <script>
