@@ -53,6 +53,7 @@
     }
     </script>
     @endverbatim
+    <link rel="preload" as="image" href="/media/banner2-scaled.avif" type="image/avif" fetchpriority="high">
     <link rel="icon" type="image/png" href="/media/cropped-favico.png">
     <link rel="stylesheet" href="/fonts/google/css/rem.css">
     <link rel="stylesheet" href="/fonts/google/css/poppins.css">
