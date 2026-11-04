@@ -43,7 +43,7 @@ h1{font-family:"REM",sans-serif;font-size:64px;font-weight:400;line-height:84px;
 .btn-text{background-color:var(--text);color:#fff;fill:#fff}
 .btn-text:hover,.btn-text:focus{background-color:var(--accent);color:#fff}
 .btn-lg{font-size:19px;padding:13px 34px}
-.btn .btn-icon{display:inline-flex;width:1em;height:1em;position:relative;top:1px}
+.btn .btn-icon,.btn-ghost .btn-icon{display:inline-flex;width:1em;height:1em;position:relative;top:1px}
 .btn-ghost{
   display:inline-flex;align-items:center;gap:10px;
   font-family:"Roboto",sans-serif;font-size:17px;font-weight:500;
@@ -449,3 +449,6 @@ input::placeholder,textarea::placeholder{color:rgba(18,75,126,.6)}
 .cta-buttons .btn,.cta-buttons a.btn{color:#124B7E !important;font-weight:600}
 .cb-btn{background:#124B7E !important;color:#fff !important}
 .cb-btn.cb-primary{background:#97BB36 !important;color:#124B7E !important;font-weight:700}
+
+.btn-ghost{display:inline-flex;align-items:center;gap:8px}
+.btn-ghost .btn-icon svg{width:1em;height:1em;display:block}
