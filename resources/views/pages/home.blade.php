@@ -73,8 +73,8 @@
     <section class="section partners" style="padding-top:5%;padding-bottom:5%;">
         <h2 class="h-section animate-on-scroll" style="line-height:84px;margin-bottom:56px;">Parcerias Que Importam</h2>
         <div class="partners-row" style="margin-top:22px;margin-bottom:56px;">
-            <a href="https://itpi.pt/" target="_blank" rel="noopener"><picture><source srcset="/media/itpi.avif" type="image/avif"><source srcset="/media/itpi.webp" type="image/webp"><img src="/media/itpi.png" alt="ITPI" class="logo-parceiro"></picture></a>
-            <a href="https://www.orbisource.pt/" target="_blank" rel="noopener"><picture><source srcset="/media/orbisource.avif" type="image/avif"><source srcset="/media/orbisource.webp" type="image/webp"><img src="/media/orbisource.png" alt="Orbisource" class="logo-parceiro"></picture></a>
+            <a href="https://itpi.pt/" target="_blank" rel="noopener"><picture><source srcset="/media/itpi.avif" type="image/avif"><source srcset="/media/itpi.webp" type="image/webp"><img src="/media/itpi.png" alt="ITPI" class="logo-parceiro" width="243" height="137"></picture></a>
+            <a href="https://www.orbisource.pt/" target="_blank" rel="noopener"><picture><source srcset="/media/orbisource.avif" type="image/avif"><source srcset="/media/orbisource.webp" type="image/webp"><img src="/media/orbisource.png" alt="Orbisource" class="logo-parceiro" width="448" height="136"></picture></a>
         </div>
     </section>
 @endsection
