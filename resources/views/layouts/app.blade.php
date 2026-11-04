@@ -88,7 +88,7 @@
         <div class="header-container">
             <div class="logo-container">
                 <a href="/" style="display:inline-block;">
-                    <picture><source srcset="/media/Zenvyor-Logo_White-1.avif" type="image/avif"><source srcset="/media/Zenvyor-Logo_White-1.webp" type="image/webp"><img src="/media/Zenvyor-Logo_White-1.png" alt="Zenvyor" width="3789" height="1076"></picture>
+                    <picture><source srcset="/media/Zenvyor-Logo_White-1.avif" type="image/avif"><source srcset="/media/Zenvyor-Logo_White-1.webp" type="image/webp"><img src="/media/Zenvyor-Logo_White-1.png" alt="Zenvyor" width="140" height="40"></picture>
                 </a>
             </div>
             <div class="my-menu-container">
@@ -126,7 +126,7 @@
 
     <footer class="site-footer">
         <div class="footer-left">
-            <a href="/"><picture><source srcset="/media/Zenvyor-Logo_White.avif" type="image/avif"><source srcset="/media/Zenvyor-Logo_White.webp" type="image/webp"><img src="/media/Zenvyor-Logo_White.png" alt="Zenvyor" width="3789" height="1076"></picture></a>
+            <a href="/"><picture><source srcset="/media/Zenvyor-Logo_White.avif" type="image/avif"><source srcset="/media/Zenvyor-Logo_White.webp" type="image/webp"><img src="/media/Zenvyor-Logo_White.png" alt="Zenvyor" width="140" height="40"></picture></a>
             <span class="footer-copy">&copy; {{ date('Y') }}</span>
         </div>
         <nav class="footer-menu">
