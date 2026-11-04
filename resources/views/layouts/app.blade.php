@@ -59,7 +59,7 @@
     <link rel="stylesheet" href="/fonts/google/css/poppins.css">
     <link rel="stylesheet" href="/fonts/google/css/roboto.css">
     <link rel="stylesheet" href="/fonts/google/css/robotoslab.css">
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/app.css?v={{ filemtime(public_path('css/app.css')) }}">
     <!-- Google tag (gtag.js) — Consent Mode v2: só ativa após consentimento -->
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -143,7 +143,7 @@
     </footer>
 
     @include('partials.cookie-banner')
-    <script src="/js/app.js"></script>
+    <script src="/js/app.js?v={{ filemtime(public_path('js/app.js')) }}"></script>
     @stack('scripts')
 </body>
 </html>
