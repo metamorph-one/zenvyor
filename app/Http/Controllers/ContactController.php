@@ -46,8 +46,8 @@ class ContactController extends Controller
                 ->send(new \App\Mail\ContactNotification($submission));
             Mail::to($submission->email)
                 ->send(new \App\Mail\ContactAutoReply($submission));
-        } catch (\Throwable) {
-            // O envio por email falhou mas a submissão ficou registada na base de dados.
+        } catch (\Throwable $e) {
+            \Illuminate\Support\Facades\Log::error('Contact mail failed: '.$e->getMessage());
         }
 
         return back()->with('success', 'O seu formulário foi enviado com sucesso');
