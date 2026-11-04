@@ -27,7 +27,11 @@
 </tbody>
 </table>
 <h2>3. Gestão de cookies</h2>
-<p>Pode, a qualquer momento, alterar ou retirar o seu consentimento através das definições do seu navegador. Note-se que a desativação de cookies funcionais pode afetar o funcionamento do website.</p>
+<p>Pode, a qualquer momento, alterar ou retirar o seu consentimento:</p>
+
+<p><button type="button" class="btn btn-accent" onclick="openCookiePrefs()">Gerir Preferências de Cookies</button></p>
+
+<p>Em alternativa, pode fazê-lo através das definições do seu navegador. Note-se que a desativação de cookies funcionais pode afetar o funcionamento do website.</p>
 <p>Para mais informações sobre como tratamos os seus dados pessoais, consulte a nossa <a href="/politica-privacidade">Política de Privacidade</a>.</p>
 <h2>4. Contacto</h2>
 <ul>

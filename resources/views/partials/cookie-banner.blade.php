@@ -47,13 +47,10 @@
     </div>
 </div>
 
-<button type="button" id="cookieRevoke" class="cookie-revoke" hidden>Gerir Cookies</button>
-
 <script>
     (function () {
         var banner = document.getElementById('cookieBanner');
         var prefs = document.getElementById('cookiePrefs');
-        var revoke = document.getElementById('cookieRevoke');
         var marketing = document.getElementById('cpMarketing');
 
         function current() { return localStorage.getItem('zenvyor_consent'); }
@@ -74,7 +71,6 @@
                 : { ad_storage: 'denied', analytics_storage: 'denied' });
             if (c === 'all') loadGtag();
             marketing.checked = (c === 'all');
-            revoke.hidden = false;
             banner.hidden = true;
             prefs.hidden = true;
         }
@@ -83,7 +79,6 @@
             banner.hidden = false;
         } else {
             marketing.checked = (current() === 'all');
-            revoke.hidden = false;
         }
 
         banner.querySelectorAll('[data-consent]').forEach(function (btn) {
@@ -96,9 +91,9 @@
         document.getElementById('cpAcceptAll').addEventListener('click', function () { applyConsent('all'); });
         document.getElementById('cpDenyAll').addEventListener('click', function () { applyConsent('functional'); });
         document.getElementById('cpSave').addEventListener('click', function () { applyConsent(marketing.checked ? 'all' : 'functional'); });
-        revoke.addEventListener('click', function () {
+        window.openCookiePrefs = function () {
             marketing.checked = (current() === 'all');
             prefs.hidden = false;
-        });
+        };
     })();
 </script>
